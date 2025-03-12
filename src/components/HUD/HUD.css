@@ -1,0 +1,37 @@
+/* HUD.css */
+.hud {
+  position: fixed; /* Fix the HUD to the screen */
+  top: 20px; /* Position from the top */
+  left: 20px; /* Position from the left */
+  background-color: rgba(26, 26, 26, 0.8); /* Semi-transparent dark background */
+  color: #00ffcc; /* Neon cyan text */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.5); /* Neon glow effect */
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.mini-map {
+  margin-bottom: 20px;
+}
+
+.text-panels {
+  display: flex;
+  flex-direction: column; /* Stack panels vertically */
+}
+
+.panel {
+  background-color: rgba(0, 0, 0, 0.5); /* Darker background for panels */
+  border: 1px solid #00ffcc; /* Neon border */
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0; /* Space between panels */
+  text-decoration: none; /* Remove underline from links */
+  color: #00ffcc; /* Neon text color */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.panel:hover {
+  background-color: rgba(0, 255, 204, 0.2); /* Lighten background on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}

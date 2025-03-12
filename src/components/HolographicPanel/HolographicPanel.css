@@ -1,0 +1,33 @@
+/* HolographicPanel.css */
+.holographic-panel {
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  border-radius: 10px;
+  padding: 20px;
+  color: #00ffcc; /* Neon text color */
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.5); /* Neon glow effect */
+  position: relative; /* Position for the glitch effect */
+  overflow: hidden; /* Hide overflow for glitch effect */
+  transition: transform 0.3s; /* Smooth transition for scaling */
+}
+
+.glitch-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, rgba(0, 255, 204, 0.5), rgba(0, 0, 0, 0.5));
+  filter: blur(5px);
+  opacity: 0.5;
+  z-index: -1; /* Place behind the content */
+  animation: glitch 1s infinite; /* Add glitch animation */
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, -2px); }
+  40% { transform: translate(2px, 2px); }
+  60% { transform: translate(-2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
+}

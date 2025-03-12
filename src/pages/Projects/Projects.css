@@ -1,0 +1,29 @@
+.projects-page {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: cyan;
+    font-family: 'monospace';
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid cyan;
+    border-radius: 10px;
+  }
+  
+  .projects-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .projects-page ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .projects-page li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }

@@ -1,0 +1,49 @@
+.contact-page {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: cyan;
+    font-family: 'monospace';
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid cyan;
+    border-radius: 10px;
+  }
+  
+  .contact-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-page p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-page input,
+  .contact-page textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid cyan;
+    background: rgba(0, 0, 0, 0.5);
+    color: cyan;
+    font-family: 'monospace';
+  }
+  
+  .contact-page button {
+    padding: 10px 20px;
+    border: 1px solid cyan;
+    background: rgba(0, 0, 0, 0.5);
+    color: cyan;
+    font-family: 'monospace';
+    cursor: pointer;
+  }
+  
+  .contact-page button:hover {
+    background: cyan;
+    color: black;
+  }
